@@ -2,6 +2,7 @@
 // Copyright © 2018-2023 WireGuard LLC. All Rights Reserved.
 
 #include "key.h"
+#include <sys/types.h>
 #include "x25519.h"
 
 /* From <sys/kern_control.h> */
